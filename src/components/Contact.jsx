@@ -9,6 +9,7 @@ export const Contact = () => {
       <h1>Contact</h1>
       <button onClick={actions.themeDark}>Dark</button>
       <button onClick={actions.themeLight}>Light</button>
+      <span> with flux</span>
     </div>
   )
 }

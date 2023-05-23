@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {About} from "./components/About";
-import {Services} from "./components/Services";
 import {Contact} from "./components/Contact";
+import {Faqs} from './components/Faqs';
+import {Profile} from "./components/Profile";
+import {Services} from "./components/Services";
 import injectContext from "./store/appContext";
 
 class App extends Component {
@@ -15,8 +17,10 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <About/>
-        <Services/>
         <Contact/>
+        <Faqs/>
+        <Profile/>
+        <Services/>
       </div>
     );
   }

@@ -6,9 +6,10 @@ export const Services = () => {
 
   return (
     <div className={store.theme}>
-      <h1>Services</h1>
+      <h1>Services </h1>
       <button onClick={actions.themeDark}>Dark</button>
       <button onClick={actions.themeLight}>Light</button>
+      <span> with flux</span>
     </div>
   )
 }
